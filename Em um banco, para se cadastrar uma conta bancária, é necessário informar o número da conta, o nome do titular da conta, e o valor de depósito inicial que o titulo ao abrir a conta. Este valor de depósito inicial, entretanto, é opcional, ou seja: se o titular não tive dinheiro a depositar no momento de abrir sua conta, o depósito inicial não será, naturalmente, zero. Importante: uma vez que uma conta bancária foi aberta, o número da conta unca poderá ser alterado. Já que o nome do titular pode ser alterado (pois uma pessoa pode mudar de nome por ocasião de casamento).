@@ -77,9 +77,6 @@ public class cliente {
 	public double getSaldo() {
 		return saldo;
 	}
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
 	// funcao responsavel por subtratir toda vez que o cliente sacar + cobranca na taxa de saque
 	public void Saque(double saque) {
 		 this.saldo = (this.saldo - saque) - 5.00 ; 
